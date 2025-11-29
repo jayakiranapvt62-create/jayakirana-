@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayakirana Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/logo.png" class="logo" />
+    <input type="text" id="searchBar" placeholder="Search items..." />
+  </header>
+
+  <!-- Category Tabs -->
+  <nav class="categories">
+    <button onclick="filterCategory('hardware')">Hardware</button>
+    <button onclick="filterCategory('fancy')">Fancy</button>
+    <button onclick="filterCategory('toy')">Toys</button>
+    <button onclick="filterCategory('kitchen')">Kitchen & Plastic</button>
+  </nav>
+
+  <!-- Auto Sliding Banner -->
+  <div class="slider">
+    <div class="slide-track">
+      <img src="images/sample1.jpg" />
+      <img src="images/sample2.jpg" />
+      <img src="images/sample3.jpg" />
+      <img src="images/sample4.jpg" />
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div id="productGrid" class="product-grid"></div>
+
+  <!-- Contacts -->
+  <footer>
+    <h3>Contact Us</h3>
+    <p>Piliyandala – 0771095641</p>
+    <p>Delgoda – 0771095638</p>
+    <p>Ragama – 0771095642</p>
+    <p>Nittabuwa – 0771095640</p>
+    <p>Jayakirana Repair Center – 0768233535</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
